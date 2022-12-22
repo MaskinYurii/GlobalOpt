@@ -1,0 +1,49 @@
+.consultation{
+    padding-bottom: 60px;
+    &__form{
+        margin-top: 75px;
+        padding: 65px 0 50px;
+        display: grid;
+        grid-template-columns: repeat(3,270px);
+        justify-content: center;
+        column-gap: 5px;
+        border: 2px solid #c4c4c4;
+        position: relative;
+    }
+    &__input{
+        height: 45px;
+        border: 2px solid #c4c4c4;
+        border-radius: 45px;
+        padding: 20px 30px;
+        &::placeholder{
+            font-weight: 300;
+            font-size: 13px;
+        }
+    }
+    &__btn{
+        padding: 0 10px;
+        background-color: #fff;
+        position: absolute;
+        bottom: -24px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    &__icon{
+        padding: 0 10px;
+        background-color: #fff;
+        position: absolute;
+        top: -55px;
+        left: 50%;
+        transform: translateX(-50%);
+        div{
+            width: 100px;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid $main-color;
+            border-radius: 100%;
+        }
+    }
+}

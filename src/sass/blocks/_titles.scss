@@ -1,0 +1,25 @@
+.title{
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    &_21px{
+        margin: 0 auto;
+        font-size: 21px;
+        font-weight: 300;
+        text-align: center;
+        margin-top: 15px;
+        text-transform:inherit;
+        max-width: 825px;
+    }
+    &_fz26{
+        font-size: 26px;
+        color: $title-color;
+    }
+    &_fz28{
+        font-size: 28px;
+        font-weight: 400;
+        text-align: center;
+        color: $text-color;
+    }
+}
